@@ -65,3 +65,9 @@ kbd {
   letter-spacing: .1rem;
   color: #fff;
 }
+@media screen and (max-width:600px) {
+  .keys{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
